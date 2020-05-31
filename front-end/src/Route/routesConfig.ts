@@ -10,4 +10,6 @@ export const routesConfig: EnumDictionary<RoutesEnum, IRoute> = {
     [RoutesEnum.MISSIONS]: {url:'/missoes', name:'Missões'},
     [RoutesEnum.PROFILE]: {url:'/user', name:'Perfil'},
     [RoutesEnum.CONTENT]: {url:'/content', name:'Content'},
+    [RoutesEnum.QUIZ]: {url:'/quiz', name:'Quiz'},
+
  };

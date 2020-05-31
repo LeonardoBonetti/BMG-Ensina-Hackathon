@@ -8,6 +8,7 @@ import '../Layout/Layout.css';
 import Missions from "../Pages/Missions/Mission";
 import Profile from "../Pages/Profile/Profile";
 import Content from "../Pages/Content/Content";
+import { QuizPoupanca } from "../Pages/Quiz/Quiz";
 
 
 const Routes = () => (
@@ -24,6 +25,9 @@ const Routes = () => (
       </Route>
       <Route exact path={routesConfig[RoutesEnum.LEARN].url}>
         <Learn/>
+      </Route>
+      <Route exact path={routesConfig[RoutesEnum.QUIZ].url}>
+        <QuizPoupanca/>
       </Route>
     </Switch>
 </Container>

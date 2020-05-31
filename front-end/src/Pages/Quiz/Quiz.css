@@ -1,0 +1,7 @@
+.react-quiz-container {
+    width: 100%;
+    margin-left: 0;
+}
+
+.single.selection-tag,
+.number-of-selection{ display: none; }

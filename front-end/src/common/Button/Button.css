@@ -7,8 +7,10 @@
     display: flex;
     align-items: center;
     margin-right: 20px;
-    width:20%;
     margin-bottom: 5px;
+    text-align: center;
+    display: block;
+    width: auto;
 }
 .main-button.yellow{
     background-color: #f6891b;
@@ -19,4 +21,7 @@
     color: #f6891b;
     border:2px solid #f6891b;
     font-weight: 500;
+}
+.main-button:hover{
+   text-decoration: none;
 }
