@@ -22,22 +22,36 @@ const Profile = () => (
       </Row>
       <Row className="profile-historic">
          <Col md={3}>
-            <ProfileCard title="" />
+            <ProfileCard
+               type="poupar"
+               date="31/05/2020"
+               text="Parabéns, você poupou R$ 10,00
+               e foi recompensado com R$ 1,00"
+            />
          </Col>
          <Col md={3}>
-            <ProfileCard title="" />
+            <ProfileCard
+               type="investir"
+               date="30/05/2020"
+               text="Parabéns, você investiu R$ 10,00
+               e foi recompensado com R$ 1,00"
+            />
          </Col>
          <Col md={3}>
-            <ProfileCard title="" />
+            <ProfileCard
+               type="licao"
+               date="26/05/2020"
+               text="Parabéns, você completou a lição:
+               O que é poupar dinheiro"
+            />
          </Col>
          <Col md={3}>
-            <ProfileCard title="" />
-         </Col>
-         <Col md={3}>
-            <ProfileCard title="" />
-         </Col>
-         <Col md={3}>
-            <ProfileCard title="" />
+            <ProfileCard
+               type="licao"
+               date="25/05/2020"
+               text="Parabéns, você completou a lição:
+               Reserva de emergência"
+            />
          </Col>
       </Row>
    </>
