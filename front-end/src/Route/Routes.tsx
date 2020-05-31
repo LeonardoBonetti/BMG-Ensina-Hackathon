@@ -7,6 +7,7 @@ import { Container } from "react-bootstrap";
 import '../Layout/Layout.css';
 import Missions from "../Pages/Missions/Mission";
 import Profile from "../Pages/Profile/Profile";
+import { ReservaDeEmergencia } from "../Pages/Quiz/Quiz";
 
 
 const Routes = () => (
@@ -20,6 +21,9 @@ const Routes = () => (
       </Route>
       <Route exact path={routesConfig[RoutesEnum.LEARN].url}>
         <Learn/>
+      </Route>
+      <Route exact path={'/Reserva-de-Emergencia'}>
+        <ReservaDeEmergencia/>
       </Route>
     </Switch>
 </Container>

@@ -11,10 +11,17 @@ const Learn = () => (
             </Row>
             <Row>
                <Col md={4}>
-                  <LearnCard title={"O que é poupar dinheiro? "} url={"https://storage.googleapis.com/hackaton_bmg/card_front_1.png"}/>
+                  <LearnCard
+                     title={"O que é poupar dinheiro?"}
+                     url={"https://storage.googleapis.com/hackaton_bmg/card_front_1.png"}
+                  />
                </Col>
                <Col md={4}>
-                  <LearnCard title={"Reserva de emergência"} url={"https://storage.googleapis.com/hackaton_bmg/card_front_2.jpg"}/>
+                  <LearnCard
+                     title={"Reserva de emergência"}
+                     url={"https://storage.googleapis.com/hackaton_bmg/card_front_2.jpg"}
+                     click={true}
+                  />
                </Col>
                <Col md={4}>
                   <LearnCard title={"Taxas ao poupar"} url={"https://storage.googleapis.com/hackaton_bmg/card_front_3.jpg"}/>
