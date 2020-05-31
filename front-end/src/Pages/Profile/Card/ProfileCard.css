@@ -29,3 +29,11 @@
     font-size: 15px;
     text-align: center;
 }
+
+/* Desktop */
+@media (min-width: 993px) 
+{  
+    .historic-card{
+        min-height: 250px;
+    }
+}

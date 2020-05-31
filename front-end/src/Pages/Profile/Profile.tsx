@@ -7,10 +7,10 @@ const Profile = () => (
       <Row>
          <Col lg={12}>
             <span className="profile-alignment">
-               <img src="https://storage.googleapis.com/shawee-production.appspot.com/shawee/profilepictures/ba61d739-88d3-4d7d-9fcb-654b19eac913.jpg" />
+               <img src="https://storage.googleapis.com/hackaton_bmg/maria.png" />
             </span>
             <span className="profile-alignment name">
-               <p>Olá, Leo</p>
+               <p>Olá, Maria</p>
             </span>
             <span className="profile-alignment title">
                <p>Aprendiz de poupador</p>

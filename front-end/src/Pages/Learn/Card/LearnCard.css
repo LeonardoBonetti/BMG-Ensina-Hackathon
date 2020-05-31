@@ -20,3 +20,13 @@
     background-color: #f6891b;
     border-color: transparent;
 }
+
+
+/* Mobile */
+@media (max-width: 992px) 
+{
+    .learn-card .card-img-top{
+        max-height: 208px;
+    }
+}
+

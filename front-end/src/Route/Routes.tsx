@@ -7,11 +7,15 @@ import { Container } from "react-bootstrap";
 import '../Layout/Layout.css';
 import Missions from "../Pages/Missions/Mission";
 import Profile from "../Pages/Profile/Profile";
+import Content from "../Pages/Content/Content";
 
 
 const Routes = () => (
   <Container className="page-container">
     <Switch>
+    <Route exact path={routesConfig[RoutesEnum.CONTENT].url}>
+       <Content/>
+      </Route>
       <Route exact path={routesConfig[RoutesEnum.PROFILE].url}>
        <Profile/>
       </Route>

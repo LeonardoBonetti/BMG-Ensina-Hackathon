@@ -28,15 +28,6 @@ const Learn = () => (
                <Col md={4}>
                   <LearnCard title={"Fundos imobiliários"} url={"https://storage.googleapis.com/hackaton_bmg/card_front_6.png"}/>
                </Col>
-               <Col md={4}>
-                  <LearnCard title={"O que é investir?"} url={"https://storage.googleapis.com/hackaton_bmg/card_front_4.png"}/>
-               </Col>
-               <Col md={4}>
-                  <LearnCard title={"Tesouro Direto"} url={"https://storage.googleapis.com/hackaton_bmg/card_front_5.png"}/>
-               </Col>
-               <Col md={4}>
-                  <LearnCard title={"Fundos imobiliários"} url={"https://storage.googleapis.com/hackaton_bmg/card_front_6.png"}/>
-               </Col>
             </Row>
          </Col>
          <Col className="hide-mobile" lg={3}>

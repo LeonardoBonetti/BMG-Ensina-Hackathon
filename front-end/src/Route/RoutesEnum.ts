@@ -1,7 +1,8 @@
 enum RoutesEnum {
     LEARN,
     MISSIONS,
-    PROFILE
+    PROFILE,
+    CONTENT
 }
 
 export default RoutesEnum;

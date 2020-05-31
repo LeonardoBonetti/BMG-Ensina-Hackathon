@@ -32,6 +32,12 @@
     margin-top: 150px;
 }
 
+.profile-alignment.name{
+    width: 100%;
+}
+.profile-alignment.title{
+    width: 100%;
+}
 .profile-alignment.title p{
     margin-top: 167px;
     color:#AEAEAE;
