@@ -1,0 +1,54 @@
+.profile-alignment{
+    position: absolute;
+    object-fit: cover;
+    top: 5px;
+    left: 50%;
+    transform: translate3d(-50%, 0px, 0px);
+    z-index: 2;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 0px;
+    transition: top 0.1s ease 0s;
+    line-height: 160px;
+    font-size: 18px;
+
+}
+.profile-alignment img{
+    display: block;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px; 
+    box-shadow: rgba(0, 0, 0, 0.50) 0px 10px 20px -8px;
+
+}
+.profile-alignment p{
+    text-align: center;
+    width: 100%;
+    font-size: 32px;
+
+}
+
+.profile-alignment.name p{
+    margin-top: 150px;
+}
+
+.profile-alignment.title p{
+    margin-top: 167px;
+    color:#AEAEAE;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.profile-alignment.historico p{
+    margin-top: 266px;
+    color:#4D4D4F;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.profile-historic{
+    margin-top: 406px;
+}
+
+
+
