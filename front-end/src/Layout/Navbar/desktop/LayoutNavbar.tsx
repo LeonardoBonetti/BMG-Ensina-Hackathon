@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
-import Logo from '../../../logo.svg';
+import Logo from '../../../logo.png';
 import './LayoutNavbar.css';
 import RoutesEnum from '../../../Route/RoutesEnum';
 import { routesConfig } from '../../../Route/routesConfig';
@@ -14,7 +14,6 @@ const LayoutNavbar = () => (
         <img
           alt=""
           src={Logo}
-          width="80"
           height="80"
           className="d-inline-block align-top"
         />

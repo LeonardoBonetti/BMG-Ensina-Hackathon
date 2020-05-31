@@ -5,16 +5,18 @@ import RoutesEnum from "./RoutesEnum";
 import Learn from "../Pages/Learn/Learn";
 import { Container } from "react-bootstrap";
 import '../Layout/Layout.css';
+import Missions from "../Pages/Missions/Mission";
+import Profile from "../Pages/Profile/Profile";
 
 
 const Routes = () => (
   <Container className="page-container">
     <Switch>
       <Route exact path={routesConfig[RoutesEnum.PROFILE].url}>
-        <h1>{routesConfig[RoutesEnum.PROFILE].name}</h1>
+       <Profile/>
       </Route>
       <Route exact path={routesConfig[RoutesEnum.MISSIONS].url}>
-        <h1>{routesConfig[RoutesEnum.MISSIONS].name}</h1>
+        <Missions/>
       </Route>
       <Route exact path={routesConfig[RoutesEnum.LEARN].url}>
         <Learn/>

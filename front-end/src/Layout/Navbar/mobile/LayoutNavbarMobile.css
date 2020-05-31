@@ -13,6 +13,13 @@
     text-align: center;
 }
 
+.nav-m-container{
+    display: block;
+    position: relative;
+    bottom: 100%;
+    padding:50px
+}
+
 
 @media (min-width: 993px) 
 {  

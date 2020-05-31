@@ -9,9 +9,10 @@ import Routes from "../Route/Routes";
 const Layout = () => (
   <Router history={customHistory}>
       <div className="content-wrapper">     
-      <LayoutNavbar/>  
-      <LayoutNavbarMobile/> 
-      <Routes/>
+        <LayoutNavbar/>  
+        <LayoutNavbarMobile/> 
+        <Routes/>
+        <div className="page-container-fix"></div>
     </div>
   </Router>
   

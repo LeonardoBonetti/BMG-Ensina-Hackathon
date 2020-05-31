@@ -9,6 +9,8 @@
 }
 .learn-card .card-img-top{
     border-radius: 20px;
+    max-height: 173px;
+    width: auto;
 }
 .learn-card .btn {
     width:100%;
