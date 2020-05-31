@@ -1,0 +1,20 @@
+.learn-card{
+    border-radius: 20px;
+    border-color:transparent;
+    margin-bottom: 20px;
+}
+.learn-card .card-body{
+    padding:0px;
+    margin-top:-15px
+}
+.learn-card .card-img-top{
+    border-radius: 20px;
+}
+.learn-card .btn {
+    width:100%;
+    border-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #f6891b;
+    border-color: transparent;
+}

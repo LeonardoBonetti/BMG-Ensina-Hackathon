@@ -1,0 +1,23 @@
+html{
+    min-height:100%;
+    position:relative;
+}
+body{
+    height:100%; /* force the BODY element to match the height of the HTML element */
+}
+.content-wrapper{
+    background-color: #FFFFFF;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow:auto;
+    z-index:-1; /* Remove this line if it's not going to be a background! */
+}
+
+.page-container{
+    margin-top: 30px;
+    /* overflow:scroll; */
+}
+
