@@ -10,13 +10,15 @@ const Missions = () => (
          </Row>
          <Row>
             <Col md={4}>
-               <MissionCard type={'poupar'} reward={'R$ 1,00'} objective={'10,00'} current={'0,00'} message={'De uma poupada extra com o valor de R$ 10,00 no poupa pra mim'} />
+            <MissionCard type={'investir'} reward={'R$ 25,37'} objective={'150,00'} current={'50,00'} message={'Faça um investimentos de R$ 150,00 em renda fixa.'} />
+
             </Col>
             <Col md={4}>
-               <MissionCard type={'investir'} reward={'R$ 1,00'} objective={'100,00'} current={'10,00'} message={'Faça um investimentos de R$ 100,00 em renda fixa.'} />
+               <MissionCard type={'investir'} reward={'R$ 13,69'} objective={'100,00'} current={'80,00'} message={'Faça um investimentos de R$ 100,00 em renda fixa.'} />
             </Col>
             <Col md={4}>
-               <MissionCard type={'investir'} reward={'R$ 1,01'} objective={'110,00'} current={'0,00'} message={'Faça um investimentos de R$ 100,00 em renda fixa.'} />
+            <MissionCard type={'poupar'} reward={'R$ 5,48'} objective={'25,00'} current={'24,00'} message={'De uma poupada extra com o valor de R$ 25,00 no poupa pra mim'} />
+
             </Col>
          </Row>
       </Col>

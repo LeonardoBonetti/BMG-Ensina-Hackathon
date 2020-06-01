@@ -48,7 +48,7 @@ const Learn = () => (
          </Row>
          <Row>
             <Col>
-               <MissionCard type={'poupar'} reward={'1,00'} objective={'10,00'} current={'0,00'} message={'De uma poupada extra com o valor de R$ 10,00 no poupa pra mim'} />
+               <MissionCard type={'investir'} reward={'R$ 25,37'} objective={'150,00'} current={'50,00'} message={'Faça um investimentos de R$ 150,00 em renda fixa.'} />
             </Col>
          </Row>
       </Col>
