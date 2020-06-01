@@ -32,6 +32,10 @@ Execute o comando para rodar a aplicação `yarn start` or `npm start`
 
 Visite nosso site em: [meu_BMG Ensina](https://meu-bmg-ensina.netlify.app/).
 
+## Documentos da apresentação
+
+PDF: [Download](https://storage.googleapis.com/hackaton_bmg/Meu_BMG_Ensina.pdf)
+
 ## Layout
 
 O layout mobile está disponível em: [Figma](https://www.figma.com/proto/368rhXEjpqCTObyLnRgDgm/BMG-Hack?node-id=56%3A244&viewport=775%2C639%2C0.3535080850124359&scaling=scale-down).
