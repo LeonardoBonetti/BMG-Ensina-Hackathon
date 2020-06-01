@@ -10,7 +10,8 @@
     margin-bottom: 5px;
     text-align: center;
     display: block;
-    width: auto;
+    width: 130px;
+    margin: auto;
 }
 .main-button.yellow{
     background-color: #f6891b;

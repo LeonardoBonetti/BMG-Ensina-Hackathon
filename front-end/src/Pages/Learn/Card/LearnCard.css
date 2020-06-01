@@ -21,6 +21,24 @@
     border-color: transparent;
 }
 
+.learn-card.card-disabled
+{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.learn-card.card-disabled:hover
+{
+    cursor: default;;
+}
+
+.learn-card.card-disabled:hover .learn-card-button
+{
+    cursor: default;;
+}
+
+
+
 
 /* Mobile */
 @media (max-width: 992px) 

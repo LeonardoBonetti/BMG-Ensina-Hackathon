@@ -12,27 +12,33 @@ const Learn = () => (
          <Row>
             <Col md={4}>
                <LearnCard
+                  enabled={true}
                   title={"O que é poupar dinheiro?"}
                   url={"https://storage.googleapis.com/hackaton_bmg/card_front_1.png"}
                />
             </Col>
             <Col md={4}>
                <LearnCard
+                  enabled={false}
                   title={"Reserva de emergência"}
                   url={"https://storage.googleapis.com/hackaton_bmg/card_front_2.jpg"}
                />
             </Col>
             <Col md={4}>
-               <LearnCard title={"Taxas ao poupar"} url={"https://storage.googleapis.com/hackaton_bmg/card_front_3.jpg"} />
+               <LearnCard
+                  enabled={false} title={"Taxas ao poupar"} url={"https://storage.googleapis.com/hackaton_bmg/card_front_3.jpg"} />
             </Col>
             <Col md={4}>
-               <LearnCard title={"O que é investir?"} url={"https://storage.googleapis.com/hackaton_bmg/card_front_4.png"} />
+               <LearnCard
+                  enabled={false} title={"O que é investir?"} url={"https://storage.googleapis.com/hackaton_bmg/card_front_4.png"} />
             </Col>
             <Col md={4}>
-               <LearnCard title={"Tesouro Direto"} url={"https://storage.googleapis.com/hackaton_bmg/card_front_5.png"} />
+               <LearnCard
+                  enabled={false} title={"Tesouro Direto"} url={"https://storage.googleapis.com/hackaton_bmg/card_front_5.png"} />
             </Col>
             <Col md={4}>
-               <LearnCard title={"Fundos imobiliários"} url={"https://storage.googleapis.com/hackaton_bmg/card_front_6.png"} />
+               <LearnCard
+                  enabled={false} title={"Fundos imobiliários"} url={"https://storage.googleapis.com/hackaton_bmg/card_front_6.png"} />
             </Col>
          </Row>
       </Col>

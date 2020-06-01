@@ -8,7 +8,7 @@ const MissionCard = (props: {type: 'poupar'|'investir', reward: string, objectiv
    <div className="mission-card">
         {props.type == 'poupar' ? (<PigIcon className='mission-icon' />) :(<GrapIcon className='mission-icon' />)} 
         <span className='mission-title'>{props.type}</span>
-        <p className='mission-reward'>Recompensa R$ {props.reward}</p>
+        <p className='mission-reward'>Recompensa: {props.reward}</p>
         <p className='mission-text'>{props.message}</p>
    <p className='mission-progress'>{props.type == 'investir'? 'Investir em Renda Fixa':'Poupa pra mim'}</p>
         <p className='mission-progress'>R$ {props.current}/{props.objective}</p>
