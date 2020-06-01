@@ -8,7 +8,7 @@
 
 ---
 
-## Technologies
+## Tecnologias
 
 <ul>
     <li><a href="https://nodejs.org/en/">Node.js</a></li>
@@ -16,29 +16,29 @@
     <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
 </ul>
 
-## Getting started
+## Execute
 
-Clone this repository `https://github.com/LeonardoBonetti/bmg-ensina.git`
+Clone esse repositório `https://github.com/LeonardoBonetti/bmg-ensina.git`
 
 <h3> Frontend </h3>
 
-From the project root, enter the frontend folder, running `cd front-end`
+A partir da pasta raiz execute: `cd front-end`
 
-Run this command, for install the dependencies `yarn install` or `npm install`
+Execute o comando para instalar as dependências `npm install`
 
-Run this command to start the application `yarn start` or `npm start`
+Execute o comando para rodar a aplicação `yarn start` or `npm start`
+
+## Site
+
+Visite nosso site em: [meu_BMG Ensina](https://meu-bmg-ensina.netlify.app/).
 
 ## Layout
 
-The layout is available on [Figma](https://www.figma.com/proto/368rhXEjpqCTObyLnRgDgm/BMG-Hack?node-id=56%3A244&viewport=775%2C639%2C0.3535080850124359&scaling=scale-down).
+O layout mobile está disponível em: [Figma](https://www.figma.com/proto/368rhXEjpqCTObyLnRgDgm/BMG-Hack?node-id=56%3A244&viewport=775%2C639%2C0.3535080850124359&scaling=scale-down).
 
-## Screens
+## Printscreens
 ![image](https://i.imgur.com/cxeNTId.png)
 
 ![image](https://i.imgur.com/nD9fSXk.png)
 
-![image](https://github.com/annaflavia-castro/be-the-hero/blob/master/images/new_incident.png)
-
-![image](https://github.com/annaflavia-castro/be-the-hero/blob/master/images/incidents.png)
-
-![image](https://github.com/annaflavia-castro/be-the-hero/blob/master/images/smartphone.png)
+![image](https://i.imgur.com/6Uawpio.png)
